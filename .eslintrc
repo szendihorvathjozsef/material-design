@@ -1,0 +1,32 @@
+{
+	"extends": ["react-app", "react-app/jest", "prettier"],
+	"rules": {
+		"import/order": [
+			"error",
+			{
+				"groups": [
+					"builtin",
+					"external",
+					"internal",
+					["parent", "sibling"],
+					"index"
+				],
+				"warnOnUnassignedImports": true,
+				"pathGroups": [
+					{
+						"pattern": "@/**",
+						"group": "external"
+					}
+				]
+			}
+		],
+		"no-restricted-imports": [
+			"error",
+			{
+				"patterns": ["../..*"]
+			}
+		],
+		"prefer-template": "error",
+		"no-useless-concat": "error"
+	}
+}
