@@ -1,5 +1,4 @@
 import {
-	Button,
 	FormControl,
 	FormErrorMessage,
 	FormLabel,
@@ -9,6 +8,7 @@ import {
 	InputGroup,
 	InputLeftAddon,
 } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/button";
 import { MdOutlineAccountCircle, MdOutlineVpnKey } from "react-icons/md";
 import { useForm } from "react-hook-form";
 
