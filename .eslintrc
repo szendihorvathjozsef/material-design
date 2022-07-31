@@ -11,19 +11,20 @@
 					["parent", "sibling"],
 					"index"
 				],
-				"warnOnUnassignedImports": true,
-				"pathGroups": [
-					{
-						"pattern": "@/**",
-						"group": "external"
-					}
-				]
+				"warnOnUnassignedImports": true
 			}
 		],
 		"no-restricted-imports": [
 			"error",
 			{
-				"patterns": ["../..*"]
+				"patterns": ["../..*"],
+				"paths": [
+					{
+						"name": "react-redux",
+						"importNames": ["useDispatch", "useSelector"],
+						"message": "Please import 'useAppDispatch/useAppSelector' from '@/shared/store' instead."
+					}
+				]
 			}
 		],
 		"prefer-template": "error",

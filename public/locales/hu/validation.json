@@ -1,0 +1,4 @@
+{
+	"required": "Ezt a mezőt kötelező kitölteni.",
+	"minLength": "Legalább {{value}} karakter kell tartalmaznia."
+}

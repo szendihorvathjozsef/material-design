@@ -1,0 +1,20 @@
+{
+	"format": {
+		"number": "{{value, number}}",
+		"datetime": "{{date, datetime}}"
+	},
+	"field": {
+		"username": "Felhasználónév",
+		"password": "Jelszó",
+		"emailAddress": "E-mail cím",
+		"confirmEmailAddress": "E-mail cím megerősítése",
+		"confirmPassword": "Jelszó megerősítése",
+		"currentPassword": "Jelenlegi jelszó",
+		"mobilePhone": "Telefonszám"
+	},
+	"button": {
+		"login": "Bejelentkezés",
+		"signIn": "Bejelentkezés",
+		"submit": "Küldés"
+	}
+}
